@@ -4,9 +4,9 @@ function togglemode(){
   const img = document.querySelector('#profile img')
   
   if(html.classList.contains('lightmode')) {
-      img.setAttribute("src", "./assets/avatar-light.png")
+      img.setAttribute("src", "./projeto/assets/avatar-light.png")
   }
   else {
-      img.setAttribute("src", "./assets/avatar_1.png")
+      img.setAttribute("src", "./projeto/assets/avatar_1.png")
   }
 }
